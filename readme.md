@@ -58,14 +58,6 @@ DB_PASSWORD=pass
 DB_PORT=5432
 ```
 
-## **Important:**  
-
-- Do not commit your real `.env` file to GitHub.  
-- Add `.env` to your `.gitignore`.  
-- Instead, share a `.env.example` file (with placeholder values).  
-
-------------------------------------------------------------------
-
 ## Getting Started
 
 1. **Clone the repository**  
