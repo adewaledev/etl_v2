@@ -63,8 +63,8 @@ DB_PORT=5432
 1. **Clone the repository**  
 
     ```git
-      git clone <your-repository-url>
-      cd <your-repository-name>
+      git clone https://github.com/adewaledev/etl_v2
+      cd etl_v2
     ```
 
 2. **Set up environment variables**  
