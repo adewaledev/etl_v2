@@ -21,11 +21,10 @@ set -e  # Exit immediately if a command fails
 
 # --- Step 1: Load environment variables from .env ---
 if [ -f .env ]; then
-    export $(grep -v '^#' .env | xargs)
+    set -a
+    source .env
+    set +a
     echo "--- Loaded environment variables from .env ---"
-else
-    echo "Error: .env file not found. Please create one with DB_HOST, DB_NAME, DB_USER, DB_PASSWORD."
-    exit 1
 fi
 
 # --- Step 2: Check for required files ---
